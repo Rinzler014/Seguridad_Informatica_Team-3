@@ -4,12 +4,12 @@ Equipo3
 
 ### Integrantes
 
-Jazzareth Bernal Martínez
-Marino Olvera Camacho
-José Pablo González Poblette
-Ricardo Alejandro Escalera Heredia
-José Ortega Guido
-Rodolfo de la O Pérez
-Ricardo Adolfo González Terán
-Luis Felipe Depardón Jasso
-Hlib Korzhynskyy
+Jazzareth Bernal Martínez <br/>
+Marino Olvera Camacho <br/>
+José Pablo González Poblette <br/>
+Ricardo Alejandro Escalera Heredia <br/>
+José Ortega Guido <br/>
+Rodolfo de la O Pérez <br/>
+Ricardo Adolfo González Terán <br/>
+Luis Felipe Depardón Jasso <br/>
+Hlib Korzhynskyy <br/>
