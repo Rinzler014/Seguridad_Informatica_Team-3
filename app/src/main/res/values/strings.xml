@@ -14,4 +14,5 @@
     <string name="male_label">Masculino</string>
     <string name="female_label">Femenino</string>
     <string name="no_binary_label">No binario</string>
+    <string name="continue_label">Continuar</string>
 </resources>
