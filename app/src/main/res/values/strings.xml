@@ -2,4 +2,5 @@
     <string name="app_name">Start Form</string>
     <string name="title_first_page">Cuentanos sobre ti</string>
     <string name="title_personal_information">Información Personal</string>
+    <string name="field_name_label">Nombre</string>
 </resources>
