@@ -3,4 +3,15 @@
     <string name="title_first_page">Cuentanos sobre ti</string>
     <string name="title_personal_information">Información Personal</string>
     <string name="field_name_label">Nombre</string>
+    <string name="field_last_name_label">Apellido Paterno</string>
+    <string name="field_mother_last_name_label">Apellido Materno</string>
+    <string name="birth_date_label">Fecha de Nacimiento</string>
+    <string name="day_label">Día</string>
+    <string name="title_birth_date">¿Cuando Naciste?</string>
+    <string name="month_label">Mes</string>
+    <string name="year_label">Año</string>
+    <string name="gender_label">Genero</string>
+    <string name="male_label">Masculino</string>
+    <string name="female_label">Femenino</string>
+    <string name="no_binary_label">No binario</string>
 </resources>
