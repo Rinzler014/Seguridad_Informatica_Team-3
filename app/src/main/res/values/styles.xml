@@ -2,6 +2,8 @@
 <resources>
     <style name="Widget.StartForm.TextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
 
@@ -14,6 +16,7 @@
     <style name="Widget.StartForm.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
         <item name="android:minHeight">48dp</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
 
