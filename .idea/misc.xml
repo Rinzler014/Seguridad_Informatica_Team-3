@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ricar/Documents/GitHub/Seguridad_Informatica_Team-3/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.155" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/drawable/side_nav_bar.xml" value="0.169" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/activity_main.xml" value="0.11955420466058764" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/app_bar_main.xml" value="0.11955420466058764" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/content_main.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/fragment_config_perfil.xml" value="0.264" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/fragment_configuracion_perfil.xml" value="0.264" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/fragment_slideshow.xml" value="0.264" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/menu/activity_main_drawer.xml" value="0.6" />
+        <entry key="..\:/Users/MAJAZ/AndroidStudioProjects/Menu_desplegable/app/src/main/res/menu/main.xml" value="0.24205128205128204" />
       </map>
     </option>
   </component>

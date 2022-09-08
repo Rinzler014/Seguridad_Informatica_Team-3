@@ -1,17 +1,20 @@
 <resources>
-    <string name="app_name">Start Form</string>
-    <string name="title_first_page">Cuentanos sobre ti</string>
-    <string name="title_personal_information">Información Personal</string>
-    <string name="field_name_label">Nombre</string>
-    <string name="field_last_name_label">Apellido Paterno</string>
-    <string name="field_mother_last_name_label">Apellido Materno</string>
-    <string name="birth_date_label">Fecha de Nacimiento</string>
-    <string name="day_label">Día</string>
-    <string name="title_birth_date">¿Cuando Naciste?</string>
-    <string name="month_label">Mes</string>
-    <string name="year_label">Año</string>
-    <string name="gender_label">Genero</string>
-    <string name="male_label">Masculino</string>
-    <string name="female_label">Femenino</string>
-    <string name="no_binary_label">No binario</string>
+    <string name="app_name">Menu_desplegable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menú</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_nosotros">Nosotros</string>
+    <string name="menu_misdatos">Mis Datos</string>
+    <string name="menu_config">Configuración de mi Perfil</string>
+
+    <string name="nos_historia">Testfarma nace para cubrir la necesidad de ir más allá en la venta y distribución de insumos médicos y pruebas de diagnóstico clínico, así como de productos farmacéuticos. Testfarma, es una empresa que brinda además asesoría técnica con profesionales de la salud, para que el cliente pueda implementar efectivamente sus proyectos de diagnóstico, bien sea en el ámbito de la salud laboral y ocupacional; así como tamizajes y diagnósticos para trabajadores ó público en general.</string>
+    <string name="nos_historia_titulo">Nuestra Historia</string>
+    <string name="nos_info">Ofrecemos servicios de salud ocupacional a empresas</string>
+    <string name="nos_titulo">Servicios de Salud Laboral / Ocupacional</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
