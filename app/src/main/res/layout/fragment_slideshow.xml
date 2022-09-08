@@ -7,19 +7,9 @@
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <ImageView
-        android:id="@+id/datos_head"
-        android:layout_width="326dp"
-        android:layout_height="80dp"
-        android:src="@drawable/tf_vectoryzed"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
         android:id="@+id/datos_imageView"
         android:layout_width="417dp"
         android:layout_height="80dp"
-        android:layout_marginTop="88dp"
         android:src="@drawable/side_nav_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,8 +18,7 @@
         android:id="@+id/imageView4"
         android:layout_width="74dp"
         android:layout_height="78dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginStart="40dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:src="@tools:sample/avatars" />
@@ -38,8 +27,8 @@
         android:id="@+id/datos_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="120dp"
         android:text="Nombre del usuario"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -49,12 +38,13 @@
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/texted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="116dp"
         android:text="Edad: "
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -62,12 +52,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="116dp"
         android:layout_marginEnd="168dp"
         android:text="Sexo:"
         android:textColor="@color/black"
@@ -80,8 +69,8 @@
         android:id="@+id/textpeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="168dp"
         android:text="Peso: "
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -93,7 +82,7 @@
         android:id="@+id/textalt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="168dp"
         android:layout_marginEnd="160dp"
         android:text="Altura:"
         android:textColor="@color/black"
@@ -107,7 +96,7 @@
         android:layout_width="80dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="178dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="20 años"
@@ -119,8 +108,8 @@
         android:id="@+id/te_se"
         android:layout_width="80dp"
         android:layout_height="48dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Femenino"
@@ -133,7 +122,7 @@
         android:layout_width="80dp"
         android:layout_height="48dp"
         android:layout_marginStart="92dp"
-        android:layout_marginTop="224dp"
+        android:layout_marginTop="148dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="60 kg"
@@ -145,20 +134,20 @@
         android:id="@+id/te_al"
         android:layout_width="80dp"
         android:layout_height="48dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="224dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="1.63 m"
         android:textSize="12sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textalt"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/separador"
         android:layout_width="413dp"
         android:layout_height="48dp"
-        android:layout_marginTop="288dp"
+        android:layout_marginTop="212dp"
         android:src="@drawable/side_nav_bar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -167,7 +156,7 @@
         android:id="@+id/datos_estudios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="160dp"
         android:text="Mis estudios"
         android:textColor="@color/black"
@@ -183,7 +172,7 @@
         android:layout_width="180dp"
         android:layout_height="104dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="292dp"
         android:src="@drawable/covi"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -192,8 +181,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="40dp"
         android:text="Prueba de Antigenos"
         android:textColor="@color/black"
         android:textStyle="bold"
