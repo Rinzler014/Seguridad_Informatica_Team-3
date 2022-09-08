@@ -7,9 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioGroup
-import android.widget.Toolbar
 import androidx.core.widget.addTextChangedListener
-import java.io.Serializable
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
@@ -32,25 +30,66 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val userPersonalName = findViewById<EditText>(R.id.field_name_edit)
-        val userLastName = findViewById<EditText>(R.id.field_last_name_edit)
-        val userMotherLastName = findViewById<EditText>(R.id.field_mother_last_name_edit)
 
-        val dayField = findViewById<EditText>(R.id.field_birth_date_day_edit)
-        val monthField = findViewById<EditText>(R.id.field_birth_date_month_edit)
-        val yearField = findViewById<EditText>(R.id.field_birth_date_year_edit)
+        /* USER PERSONAL DATA */
+        val userPersonalNameField       = findViewById<EditText>(R.id.field_name_edit)
+        val userLastNameField           = findViewById<EditText>(R.id.field_last_name_edit)
+        val userMotherLastNameField     = findViewById<EditText>(R.id.field_mother_last_name_edit)
 
-        val continueButton = findViewById<Button>(R.id.button_continue)
-        continueButton.isEnabled = false
+        /* USER BIRTH DATE DATA */
+        val dayField                    = findViewById<EditText>(R.id.field_birth_date_day_edit)
+        val monthField                  = findViewById<EditText>(R.id.field_birth_date_month_edit)
+        val yearField                   = findViewById<EditText>(R.id.field_birth_date_year_edit)
 
-        var aux1 = false
-        var aux2 = false
-        var aux3 = false
+        /* CONTINUE BUTTON REFERENCE */
+        val continueButton              = findViewById<Button>(R.id.button_continue)
+        continueButton.isEnabled       = false
 
+        /* USER PERSONAL DATA VALIDATION TO CONTINUE */
+        var validName                   = false
+        var validLastName               = false
+        var validMomLastName            = false
 
+        var validDate                   = false
+        var validMonth                  = false
+        var validYear                   = false
+
+        /* USER PERSONAL DATA LISTENERS */
+        userPersonalNameField.addTextChangedListener {
+
+            val name = userPersonalNameField.text.toString()
+
+            validName = name.isNotEmpty()
+
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
+
+        }
+
+        userLastNameField.addTextChangedListener {
+
+            val lastName = userLastNameField.text.toString()
+
+            validLastName = lastName.isNotEmpty()
+
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
+
+        }
+
+        userMotherLastNameField.addTextChangedListener {
+
+            val momLastName = userMotherLastNameField.text.toString()
+
+            validMomLastName = momLastName.isNotEmpty()
+
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
+
+        }
+
+        /* USER BIRTH DATE DATA LISTENERS */
         dayField.addTextChangedListener {
 
             val day = dayField.text.toString()
@@ -58,15 +97,15 @@ class MainActivity : AppCompatActivity() {
             if (day.isNotEmpty()){
                 if(!checkValidDates(day, 1)) {
                     dayField.error = getString(R.string.day_error)
-                    aux1 = false
+                    validDate = false
                 } else {
-                    aux1 = true
+                    validDate = true
                 }
             } else {
-                aux1 = false
+                validDate = false
             }
 
-            continueButton.isEnabled = aux1 && aux2 && aux3
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
 
         }
 
@@ -77,15 +116,15 @@ class MainActivity : AppCompatActivity() {
             if (month.isNotEmpty()) {
                 if (!checkValidDates(month, 2)) {
                     monthField.error = getString(R.string.month_error)
-                    aux2 = false
+                    validMonth = false
                 } else {
-                    aux2 = true
+                    validMonth = true
                 }
             } else {
-                aux2 = false
+                validMonth = false
             }
 
-            continueButton.isEnabled = aux1 && aux2 && aux3
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
 
         }
 
@@ -96,26 +135,38 @@ class MainActivity : AppCompatActivity() {
             if(year.isNotEmpty()) {
                 if (!checkValidDates(year, 3)) {
                     yearField.error = getString(R.string.year_error)
-                    aux3 = false
+                    validYear = false
                 } else {
-                    aux3 = true
+                    validYear = true
                 }
             } else {
-                aux3 = false
+                validYear = false
             }
 
-            continueButton.isEnabled = aux1 && aux2 && aux3
+            continueButton.isEnabled = validName && validLastName && validMomLastName && validDate && validMonth && validYear
 
 
         }
 
+        /* CONTINUE BUTTON LISTENER */
         continueButton.setOnClickListener {
 
+            val genreOption = when(findViewById<RadioGroup>(R.id.buttons_gender).checkedRadioButtonId) {
+                R.id.option_male -> getString(R.string.male_label)
+                R.id.option_female -> getString(R.string.female_label)
+                else -> "0"
+            }
+
+            val userPersonalInformation : ArrayList<String> = arrayListOf(userPersonalNameField.text.toString(),
+                                                                            userLastNameField.text.toString(),
+                                                                            userMotherLastNameField.text.toString(),
+                                                                            dayField.text.toString(),
+                                                                            monthField.text.toString(),
+                                                                            yearField.text.toString(),
+                                                                            genreOption)
+
             val intent = Intent(this, AccountCreation::class.java)
-            val userPersonalInformation : ArrayList<String> = arrayListOf(userPersonalName.text.toString(), userLastName.text.toString(), userMotherLastName.text.toString())
-
             intent.putExtra(AccountCreation.PERSONAL_INFORMATION, userPersonalInformation)
-
             startActivity(intent)
 
         }

@@ -20,6 +20,12 @@ class AccountCreation : AppCompatActivity() {
 
     }
 
+    private fun checkPasswordFirstPoint(pass : String) {
+
+        val rgx = "[A-Z]+"
+
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
