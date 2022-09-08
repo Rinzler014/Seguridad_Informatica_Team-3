@@ -15,4 +15,9 @@
     <string name="female_label">Femenino</string>
     <string name="no_binary_label">No binario</string>
     <string name="continue_label">Continuar</string>
+    <string name="title_second_form">¡Vamos a crear tu cuenta!</string>
+    <string name="title_login">Informacion de Inicio de Sesion</string>
+    <string name="username_label">Nombre de Usuario</string>
+    <string name="password_label">Contraseña</string>
+    <string name="email_label">Correo Electronico</string>
 </resources>
