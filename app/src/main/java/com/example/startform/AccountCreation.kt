@@ -49,8 +49,6 @@ class AccountCreation : AppCompatActivity() {
 
         }
 
-
-
     }
 
 }
