@@ -15,9 +15,23 @@
     <string name="female_label">Femenino</string>
     <string name="no_binary_label">No binario</string>
     <string name="continue_label">Continuar</string>
-    <string name="title_second_form">¡Vamos a crear tu cuenta!</string>
+    <string name="title_second_form">¡Hola %1$s, vamos a crear tu cuenta!</string>
     <string name="title_login">Informacion de Inicio de Sesion</string>
     <string name="username_label">Nombre de Usuario</string>
     <string name="password_label">Contraseña</string>
     <string name="email_label">Correo Electronico</string>
+
+    <string name="day_error">Día Inválido</string>
+    <string name="month_error">Mes Inválido</string>
+    <string name="year_error">Año Inválido</string>
+
+    <string name="password_description1">Recuerda que debe tener:</string>
+    <string name="password_description2">- Letras minusculas</string>
+    <string name="password_description3">- Letras MAYUSCULAS</string>
+    <string name="password_description4">- Caracteres Especiales (# $ % @ _ /)</string>
+    <string name="password_description5">- Digitos</string>
+    <string name="privacy_label">Acepto el Aviso de Privacidad</string>
+    <string name="terms_label">Acepto los Terminos y Condiciones</string>
+    <string name="create_account_button_label">Crear Mi Cuenta</string>
+    <string name="return_label">Regresar</string>
 </resources>
