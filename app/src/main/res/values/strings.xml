@@ -1,37 +1,3 @@
 <resources>
-    <string name="app_name">Start Form</string>
-    <string name="title_first_page">Cuentanos sobre ti</string>
-    <string name="title_personal_information">Información Personal</string>
-    <string name="field_name_label">Nombre</string>
-    <string name="field_last_name_label">Apellido Paterno</string>
-    <string name="field_mother_last_name_label">Apellido Materno</string>
-    <string name="birth_date_label">Fecha de Nacimiento</string>
-    <string name="day_label">Día</string>
-    <string name="title_birth_date">¿Cuando Naciste?</string>
-    <string name="month_label">Mes</string>
-    <string name="year_label">Año</string>
-    <string name="gender_label">Genero</string>
-    <string name="male_label">Masculino</string>
-    <string name="female_label">Femenino</string>
-    <string name="no_binary_label">No binario</string>
-    <string name="continue_label">Continuar</string>
-    <string name="title_second_form">¡Hola %1$s, vamos a crear tu cuenta!</string>
-    <string name="title_login">Informacion de Inicio de Sesion</string>
-    <string name="username_label">Nombre de Usuario</string>
-    <string name="password_label">Contraseña</string>
-    <string name="email_label">Correo Electronico</string>
-
-    <string name="day_error">Día Inválido</string>
-    <string name="month_error">Mes Inválido</string>
-    <string name="year_error">Año Inválido</string>
-
-    <string name="password_description1">Recuerda que debe tener:</string>
-    <string name="password_description2">- Letras minusculas</string>
-    <string name="password_description3">- Letras MAYUSCULAS</string>
-    <string name="password_description4">- Caracteres Especiales (# $ % @ _ /)</string>
-    <string name="password_description5">- Digitos</string>
-    <string name="privacy_label">Acepto el Aviso de Privacidad</string>
-    <string name="terms_label">Acepto los Terminos y Condiciones</string>
-    <string name="create_account_button_label">Crear Mi Cuenta</string>
-    <string name="return_label">Regresar</string>
+    <string name="app_name">Log in</string>
 </resources>
