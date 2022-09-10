@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">socioformadot</string>
+    <string name="phone">Phone</string>
+    <string name="testfarma">Testfarma</string>
+    <string name="mail">Mail</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">FaceBook</string>
+    <string name="Mail">info@testfarma.com.mx</string>
+    <string name="Phone">+55 7081 7720</string>
+    <string name="Menu">Menu</string>
+    <string name="descripcion">descripcion</string>
 </resources>
