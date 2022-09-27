@@ -8,6 +8,8 @@
     <color name="blue_dark">#002DC6</color>
     <color name="blue_light">#7783ff</color>
     <color name="background">#fef199</color>
+    <color name="green">#30A706</color>
+    <color name="red">#D50000</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/firstFormFragment">
+
+    <fragment
+        android:id="@+id/secondFormFragment"
+        android:name="com.example.startform.SecondFormFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second_form">
+        <argument
+            android:name="userPersonalInformation"
+            app:argType="string[]" />
+        <action
+            android:id="@+id/action_secondFormFragment_to_accountSuccessCreation"
+            app:destination="@id/accountSuccessCreation" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstFormFragment"
+        android:name="com.example.startform.FirstFormFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first_form">
+        <action
+            android:id="@+id/action_firstFormFragment_to_secondFormFragment"
+            app:destination="@id/secondFormFragment"
+            app:enterAnim="@android:anim/slide_in_left" />
+    </fragment>
+    <argument android:name="personalInformation" />
+    <fragment
+        android:id="@+id/accountSuccessCreation"
+        android:name="com.example.startform.AccountSuccessCreation"
+        android:label="Cuenta Creada con Exito"
+        tools:layout="@layout/fragment_account_success_creation" />
+</navigation>

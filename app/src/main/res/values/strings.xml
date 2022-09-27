@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Start Form</string>
+    <string name="first_fragment_label"> Registro de Usuario </string>
+    <string name="second_fragment_label"> Creación de Cuenta </string>
     <string name="title_first_page">Cuentanos sobre ti</string>
     <string name="title_personal_information">Información Personal</string>
     <string name="field_name_label">Nombre</string>
@@ -24,6 +26,8 @@
     <string name="day_error">Día Inválido</string>
     <string name="month_error">Mes Inválido</string>
     <string name="year_error">Año Inválido</string>
+    <string name="mail_error">Correo Inválido</string>
+    <string name="username_error">Nombre de usuario sin espacios</string>
 
     <string name="password_description1">Recuerda que debe tener:</string>
     <string name="password_description2">- Letras minusculas</string>
@@ -34,4 +38,10 @@
     <string name="terms_label">Acepto los Terminos y Condiciones</string>
     <string name="create_account_button_label">Crear Mi Cuenta</string>
     <string name="return_label">Regresar</string>
+    <string name="to_login_label"> Ir a Inicio de Sesión</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_description_1_5">- Al menos 8 caracteres</string>
+    <string name="account_instructions_label">Ya puedes iniciar sesion con tu usuario y contraseña</string>
+    <string name="account_created_label">¡Felicidades, tu cuenta se ha creado con exito!</string>
 </resources>
